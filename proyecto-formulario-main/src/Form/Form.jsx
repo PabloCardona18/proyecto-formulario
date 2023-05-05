@@ -61,21 +61,21 @@ export const Form = () => {
     <input className="span" type="text"
     name="apellido"
     value={values.apellido}
-    placeholder="imgrese su apellido"
+    placeholder="Ingrese su apellido"
     onChange={handleInputChange} 
     />
 
 <input className="span" type="number"
     name="identificacion"
     value={values.identificacion}
-    placeholder="ingrese su numero de identificacion"
+    placeholder="Ingrese su numero de identificacion"
     onChange={handleInputChange}
     />
 
     <input className="span" type="email"
     name="email"
     value={values.email}
-    placeholder="ingrese su email"
+    placeholder="Ingrese su email"
     onChange={handleInputChange} 
     />
 
@@ -83,7 +83,7 @@ export const Form = () => {
     <input className="span" type="number"
     name="telefono"
     value={values.telefono}
-    placeholder="ingrse su telefono"
+    placeholder="Ingrese su telefono"
     onChange={handleInputChange} />
 
 
@@ -98,7 +98,7 @@ export const Form = () => {
     <input className="span" type="text"
     name="alergias"
     value={values.alergias}
-    placeholder="Ingrese si eres alergico a algún medicamento"
+    placeholder="A que medicamento es usted alergico"
     onChange={handleInputChange} 
     />
 
@@ -106,7 +106,7 @@ export const Form = () => {
     <input className="span" type="text"
     name="motivoconsulta"
     value={values.motivoconsulta}
-    placeholder="motivo de consulta"
+    placeholder="Motivo de consulta"
     onChange={handleInputChange} 
     />
     
@@ -114,7 +114,7 @@ export const Form = () => {
 
 </form>
 
-<button>registrar</button>
+<button>Registrar</button>
 </div>
     
   )
